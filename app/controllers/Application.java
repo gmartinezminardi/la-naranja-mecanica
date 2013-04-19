@@ -1,14 +1,23 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
+import java.util.ArrayList;
+import java.util.List;
 
-import views.html.*;
+import models.Match;
+import play.mvc.Controller;
+import play.mvc.Result;
 
 public class Application extends Controller {
-  
-    public static Result index() {
-        return ok(views.html.index.render());
-    }
-  
+	
+	public static final List<Match> matches = new ArrayList<Match>();
+	
+	public static Result index() {
+		return ok(views.html.index.render());
+	}
+	
+	public static Result tournament(String index) {
+		Match match = Match.get(new Integer(index));
+		return ok(views.html.tournament.render(match.toString(), match));
+	}
+
 }

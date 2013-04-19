@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 .logo {
-	background: url('img/logo.png') no-repeat 0 0 transparent;
+	background: url('/assets/images/logo.png') no-repeat 0 0 transparent;
 	height: 210px;
 	width: 136px;
 	margin: 20px 0 0 110px;
@@ -112,14 +112,14 @@ section {
 }
 
 .pull-right .up {
-	background: url('img/icon-arrow-up-E07934.png') no-repeat 0 0 transparent;
+	background: url('/assets/images/icon-arrow-up-E07934.png') no-repeat 0 0 transparent;
 	display: block;
 	width: 48px;
 	height: 48px;
 }
 
 .up:hover {
-	background: url('img/icon-arrow-up-DCDBDB.png') no-repeat 0 0 transparent;
+	background: url('/assets/images/icon-arrow-up-DCDBDB.png') no-repeat 0 0 transparent;
 }
 
 #posTable {
@@ -196,20 +196,24 @@ section {
 
 .PTHR_g {
 	width:34px;
-	display:inline;float:left;
+	display:inline;
+	float:left;
 	text-align:center;
 }
 	
 .PTHR_h {
 	width:34px;
-	display:inline;float:left;
+	display:inline;
+	float:left;
 	text-align:center;
 }
 
 .PTHR_i {
 	width:34px;
-	display:inline;float:left;
-	text-align:center;}
+	display:inline;
+	float:left;
+	text-align:center;
+}
 			
 .PTbodyRow {
 	height: 40px;
@@ -226,11 +230,11 @@ section {
 }
 
 .PTBR_a {
-	width:37px;
-	display:inline;
-	float:left;
-	text-transform:uppercase;
-	text-align:center;
+	width: 37px;
+	display: inline;
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
 	border-right: 1px solid #3D3D3D;
 	height: 40px;
 }

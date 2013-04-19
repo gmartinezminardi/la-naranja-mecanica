@@ -1,0 +1,42 @@
+@(title: String)(_match: Match)
+
+@main(title) {
+	<div class="container">
+		<div class="row">
+			
+			<h1>@_match.localTeam vs @_match.visitTeam</h1>
+			<div>
+				
+			</div>
+			
+			<h2>Resultado</h2>
+			<div>
+				@_match.localTeam @_match.localScore - @_match.visitScore @_match.visitTeam
+			</div>
+			
+			<h2>Puntajes</h2>
+			<div>
+				@for(player <- _match.players) {
+					<li>@player</li>
+				}
+			</div>
+			
+			<h2>Resumen</h2>
+			<div>
+				<h3>@_match.summaryTitle</h3>
+				@_match.summary
+			</div>
+		</div>
+	</div>
+	
+}
+
+
+	public String localScore;
+	public String visitScore;
+	
+	public List<String> players; 
+	
+	public String summaryTitle;
+	public String summary;
+	public String commentarist;

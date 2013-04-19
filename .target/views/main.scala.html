@@ -1,0 +1,16 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>@title</title>
+		@resources()
+	</head>
+	<body>
+		@navigation()
+		@content
+		@footer()
+	</body>
+</html>
+

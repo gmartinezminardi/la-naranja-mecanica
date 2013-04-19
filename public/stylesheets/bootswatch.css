@@ -422,7 +422,7 @@ body .one .bsa_it_p {
 
 	/* Remove any padding from the body */
 	body {
-		padding-top: 0;
+		/*padding-top: 0;*/
 	}
 }
 
