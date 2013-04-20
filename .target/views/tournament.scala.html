@@ -4,15 +4,19 @@
 	<div class="container">
 		<div class="row">
 			
-			<h1>@_match.localTeam vs @_match.visitTeam</h1>
-			<div>
-				
+			<h1 class="pagination-centered">@_match.local.name vs @_match.visit.name</h1>
+
+			<h4>@_match.date</h4>
+			
+			<div class="row-fluid">
+				<span class="span3"></span>
+				<span class="span3 pagination-centered"><img src="@routes.Assets.at("images/teams/")@_match.local.imageURL"/></span>
+				<span class="span3 pagination-centered"><img src="@routes.Assets.at("images/teams/")@_match.visit.imageURL"/></span>
+				<span class="span3"></span>
 			</div>
 			
 			<h2>Resultado</h2>
-			<div>
-				@_match.localTeam @_match.localScore - @_match.visitScore @_match.visitTeam
-			</div>
+			<h4>@_match.local.name @_match.localScore - @_match.visitScore @_match.visit.name</h4>
 			
 			<h2>Puntajes</h2>
 			<div>
@@ -21,22 +25,13 @@
 				}
 			</div>
 			
-			<h2>Resumen</h2>
+			<h2>Comentario y resumen del partido</h2>
 			<div>
-				<h3>@_match.summaryTitle</h3>
-				@_match.summary
+				<h4>@_match.summaryTitle</h4>
+				<p>@Html(_match.summary)</p>
+				
 			</div>
 		</div>
 	</div>
 	
 }
-
-
-	public String localScore;
-	public String visitScore;
-	
-	public List<String> players; 
-	
-	public String summaryTitle;
-	public String summary;
-	public String commentarist;

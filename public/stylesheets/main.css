@@ -16,8 +16,22 @@ body {
 	width: 780px !important;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: 'Lato', sans-serif !important;
+	color: #E67E22;
+	font-weight: 100;
+}
+
+h4 { 
+	color: #666;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: justify;
+	color: #DCDBDB;
 }
 
 .logo {
@@ -54,15 +68,7 @@ section {
 	margin-left: 0 !important;
 }
 
-.container .row h1 {
-	font-family: 'Lato', sans-serif;
-	color: #E67E22;
-	text-transform: capitalize;
-	font-size: 50px;
-	margin-bottom: 20px;
-}
-
-.container #content h1 {
+.container h1 {
 	text-align: center;
 }
 
