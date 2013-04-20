@@ -66,7 +66,7 @@ public class Match {
 					"Dos pesos pesados se enfrentaban en un gran partido que se viviría como una verdadera final, La Naranja Mecánica frente a Hacha y Tiza. " +
 					"Tincho Jacomelli abriría la cuenta a los 6´, pero minutos más tarde Maxi Márquez igualaría tras un potente remate afuera del área. " +
 					"Pero inmediatamente responderían los celestes que de contra serían letales gracias a los buenos movimientos de Antico y Cáceres, " +
-					"Jacomelli marcaría un doblete y el ya mencionado Cáceres aumentaría la diferencia. Sarán descontaba en la agonía. </p> " + 
+					"Jacomelli marcaría un doblete y el ya mencionado Cáceres aumentaría la diferencia. Sarán descontaba en la agonía. <br/> " + 
 					"La Naranja arrancaría con todo esta segundo tiempo y en una ráfaga de dos minutos lo daría vuelta gracias a los goles de Trapo, Keki y Lope " +
 					"para asombro de los rivales que rápidamente descontarían a través de su máximo artillero Jacomelli volviendo a marcar. " +
 					"Sin embargo, El Trapo, recién regresado de Europa, sería el héroe del partido con sus goles. " +
