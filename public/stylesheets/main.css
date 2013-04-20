@@ -68,10 +68,6 @@ section {
 	margin-left: 0 !important;
 }
 
-.container h1 {
-	text-align: center;
-}
-
 .info {
 	width: 336px;
 	margin-bottom: 20px;
@@ -285,6 +281,8 @@ section {
 
 .fixture {
 	background-color: #313131;
+	width: 620px;
+	margin: 40px auto 0;
 }
 
 .fixture ul {
@@ -344,5 +342,9 @@ section {
 }
 
 .fixture ul  li.date {
+	width: 80px;
+}
+
+.fixture ul  li.link {
 	width: 80px;
 }
