@@ -20,6 +20,7 @@ h1, h2, h3 {
 	font-family: 'Lato', sans-serif !important;
 	color: #E67E22;
 	font-weight: 100;
+	-webkit-text-stroke: .5px;
 }
 
 h4 { 
@@ -347,4 +348,61 @@ section {
 
 .fixture ul  li.link {
 	width: 80px;
+}
+
+ul.scores {
+	width: 627px;
+	min-height: 40px;
+	margin: 0 auto 0;
+	background-color: #313131;
+}
+
+ul.scores li {
+	display: inline;
+	line-height: 40px;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #F2F2F2;
+	border-right: 1px solid #3D3D3D;
+	text-transform: uppercase;
+}
+
+ul.scores li.score {
+	width: 40px;
+	text-align: center;
+}
+
+ul.scores li.team-goals {
+	width: 70px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Lato';
+}
+
+ul.scores li.player {
+	width: 180px;
+	padding: 0 10px;
+}
+
+ul.scores li.goals {
+	width: 70px;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+ul.scores li.team {
+	background-color: #E07934;
+	width: 221px;
+	padding: 0 10px;
+	font-size: 15px;
+	font-family: 'Lato';
+}
+
+.row #scores > :nth-child(odd) {
+	background-color: #515151;
+}
+
+.row ul li:last-child {
+	border-right: 0 !important;
 }

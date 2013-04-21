@@ -18,13 +18,21 @@ public class Application extends Controller {
 	public static Result tournament(String index) {
 		Match match = Match.get(new Integer(index));
 		if(match == null)
-			return notFound();
+			return ok(views.html.index.render());
 		
 		return ok(views.html.tournament.render(match.toString(), match));
 	}
 	
 	public static Result fixture() {
 		return ok(views.html.fixture.render("Fixture"));
+	}
+	
+	public static Result stats() {
+		return ok(views.html.index.render());
+	}
+	
+	public static Result photos() {
+		return ok(views.html.index.render());
 	}
 
 }

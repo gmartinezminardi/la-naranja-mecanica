@@ -30,6 +30,9 @@ public class Team {
 			
 			team = new Team("pelos", "Pelos FC", "pelos.png");
 			teams.put(team.key, team);
+			
+			team = new Team("cristal", "Cristal FC", "cristal.png");
+			teams.put(team.key, team);
 		}
 		
 		return teams;
