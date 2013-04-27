@@ -49,5 +49,9 @@ public class Team {
 		this.imageURL = imageURL;
 	}
 	
+	public Team() {
+		
+	}
+	
 	
 }

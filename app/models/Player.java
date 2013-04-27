@@ -13,5 +13,11 @@ public class Player {
 		this.card = card;
 		this.score = score;
 	}
+
+	public Player() {
+		super();
+	}
+	
+	
 	
 }
