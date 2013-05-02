@@ -4,9 +4,9 @@
 
 # Home page
 GET		/							controllers.Application.index()
-GET		/apertura/2013/:match		controllers.Application.tournament(match)
-GET		/fixture					controllers.Application.fixture()
+GET		/apertura/2013/:game		controllers.Application.game(game)
 GET		/estadisticas				controllers.Application.stats()
+GET		/datos						controllers.Application.data()
 GET		/fotos						controllers.Application.photos()
 
 # Map static resources from the /public folder to the /assets URL path

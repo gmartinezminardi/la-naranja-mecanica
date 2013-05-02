@@ -126,9 +126,9 @@ section {
 }
 
 #posTable {
-	width: 336px;
+	width: 570px;
 	padding: 0 0 10px 0;
-	position:relative;
+	margin: auto;
 }
 #posTable h2 {
 	text-transform: capitalize;
@@ -153,69 +153,30 @@ section {
 .PTheadRow {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	height: 40px;
 	line-height: 40px;
-	background-color: #313131;
+	background-color: #515151;
 	color: #DCDBDB;
 }
 
 .PTHR_a {
-	width:180px;
+	width: 240px;
 	display:inline;
 	float:left;
 	text-align:center;
 }
 
-.PTHR_b {
-	width:34px;
-	display:inline;float:left;
-	text-align:center;
-}
-
-.PTHR_c {
-	width:29px;
-	display:inline;float:left;
-	text-align:center;
-}
-
-.PTHR_d {
-	width:29px;
-	display:inline;float:left;
-	text-align:center;
-}
-
-.PTHR_e {
-	width:29px;
-	display:inline;float:left;
-	text-align:center;
-}
-
-.PTHR_f {
-	width:29px;
-	display:inline;float:left;
-	text-align:center;
-}
-
-.PTHR_g {
-	width:34px;
+.PTHR_b, .PTHR_c, .PTHR_d, .PTHR_e, .PTHR_f, .PTHR_g, .PTHR_h, .PTHR_i {
+	width: 40px;
 	display:inline;
 	float:left;
 	text-align:center;
-}
-	
-.PTHR_h {
-	width:34px;
-	display:inline;
-	float:left;
-	text-align:center;
+	border-right: 1px solid #3D3D3D;
 }
 
 .PTHR_i {
-	width:34px;
-	display:inline;
-	float:left;
-	text-align:center;
+	border-right: none !important;
 }
 			
 .PTbodyRow {
@@ -225,7 +186,7 @@ section {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 	clear: both;
-	color: #DCDBDB
+	color: #DCDBDB;
 }
 
 .PTbodyRow:nth-child(odd) {
@@ -233,7 +194,7 @@ section {
 }
 
 .PTBR_a {
-	width: 37px;
+	width: 40px;
 	display: inline;
 	float: left;
 	text-transform: uppercase;
@@ -243,7 +204,7 @@ section {
 }
 
 .PTBR_b {
-	width:143px;
+	width: 200px;
 	display:inline;float:left;
 	text-transform:uppercase;
 	text-align:center;
@@ -256,8 +217,8 @@ section {
 	color: #070707 !important;
 }
 
-.PTBR_c , .PTBR_d , .PTBR_e, .PTBR_f, .PTBR_g {
-	width:30px;
+.PTBR_c, .PTBR_d , .PTBR_e, .PTBR_f, .PTBR_g, .PTBR_h, .PTBR_i, .PTBR_j {
+	width:40px;
 	display:inline;
 	float:left;
 	text-transform: uppercase;
@@ -266,7 +227,7 @@ section {
 	height: 40px;
 }
 	
-.PTBR_g {
+.PTBR_j {
 	border-right: 0 !important;
 }
 
@@ -282,7 +243,7 @@ section {
 
 .fixture {
 	background-color: #313131;
-	width: 620px;
+	width: 642px;
 	margin: 40px auto 0;
 }
 
@@ -313,11 +274,9 @@ section {
 }
 
 .fixture >:nth-child(1){
-	background-color: #E07934;
-}
-
-.fixture >:nth-child(1) li{
-	border-right: 0 !important;
+	border-radius: 2px 2px 0 0;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
 }
 
 .fixture >:nth-child(1) h2{
@@ -328,14 +287,19 @@ section {
 	font-weight: 100;
 }
 
+.fixture >:last-child {
+	border-radius: 0 0 2px 2px;
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+} 
+
 .fixture ul  li.number {
 	width: 40px;
 }
 
 .fixture ul  li.team {
-	width: 156px;
-	text-align: left;
-	padding-left: 11px;
+	width: 200px;
+	padding: 0 10px 0;
 }
 
 .fixture ul  li.result {

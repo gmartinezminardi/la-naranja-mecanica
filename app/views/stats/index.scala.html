@@ -1,0 +1,44 @@
+@(title: String)
+
+@main(title) {
+	<div class="container">
+		<div class="row">
+			
+				<ul id="tab" class="nav nav-pills">
+					<li class="active">
+						<a href="#fixture" data-toggle="tab">Fixture</a>
+					</li>
+	              	<li class="">
+	              		<a href="#positions" data-toggle="tab">Posiciones</a>
+	              	</li>
+	              	<li class="">
+	              		<a href="#scorers" data-toggle="tab">Goleadores</a>
+	              	</li>
+	              	<li class="">
+	              		<a href="#cards" data-toggle="tab">Tarjetas</a>
+	              	</li>
+	            </ul>
+	            
+	          	<div id="myTabContent" class="tab-content">
+              		<div class="tab-pane fade active in" id="fixture">
+	              		@fixture()
+             		</div>
+					<div class="tab-pane fade" id="positions">
+              			@positions()
+             		</div>
+             		<div class="tab-pane fade" id="scorers">
+              			@scorers()
+             		</div>
+             		<div class="tab-pane fade" id="cards">
+              			@cards()
+             		</div>
+				</div>
+			</div>
+		</div>
+	<script>
+		$('#tab').click(function (e) {
+		 	 e.preventDefault();
+		  	$(this).tab('show');
+		})
+	</script>
+}

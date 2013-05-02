@@ -3341,6 +3341,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs,
 .nav-pills {
   *zoom: 1;
+  text-align:center;
 }
 .nav-tabs:before,
 .nav-pills:before,
@@ -3356,7 +3357,10 @@ input[type="submit"].btn.btn-mini {
 }
 .nav-tabs > li,
 .nav-pills > li {
-  float: left;
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
 }
 .nav-tabs > li > a,
 .nav-pills > li > a {
@@ -3386,24 +3390,31 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
   color: #555555;
-  background-color: #ffffff;
+  background-color: #515151;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
 }
 .nav-pills > li > a {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	height: 30px;
+	line-height: 30px;
+	min-width: 75px;
+	font-family: Droid Sans;
+	font-size: 16px;
+	background-color: #313131;
 }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: #ffffff;
-  background-color: #dd4814;
+  background-color: #E07934;
+
 }
 .nav-stacked > li {
   float: none;
