@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-fixed-top .container {
-	width: 780px !important;
+	width: 825px !important;
 }
 
 h1, h2, h3 {
@@ -243,8 +243,8 @@ section {
 
 .fixture {
 	background-color: #313131;
-	width: 642px;
-	margin: 40px auto 0;
+	width: 716px;
+	margin: 0 auto;
 }
 
 .fixture ul {
@@ -294,7 +294,9 @@ section {
 } 
 
 .fixture ul  li.number {
-	width: 40px;
+	width: 30px;
+	font-size: 14px;
+	background-color: #E07934;
 }
 
 .fixture ul  li.team {
@@ -304,6 +306,8 @@ section {
 
 .fixture ul  li.result {
 	width: 40px;
+	font-size: 16px;
+	color: #E07934;
 }
 
 .fixture ul  li.date {
@@ -319,6 +323,11 @@ ul.scores {
 	min-height: 40px;
 	margin: 0 auto 0;
 	background-color: #313131;
+}
+
+.tall {
+	height: 80px;
+	line-height: 80px;
 }
 
 ul.scores li {
@@ -340,8 +349,13 @@ ul.scores li.score {
 ul.scores li.team-goals {
 	width: 70px;
 	text-align: center;
-	font-size: 15px;
-	font-family: 'Lato';
+	font-size: 48px;
+	font-family: 'Open Sans';
+	height: 80px;
+	line-height: 75px;
+	color: #E07934;
+	background-color: #FFF;
+	border-color: #FFF;
 }
 
 ul.scores li.player {
@@ -359,8 +373,12 @@ ul.scores li.team {
 	background-color: #E07934;
 	width: 221px;
 	padding: 0 10px;
-	font-size: 15px;
-	font-family: 'Lato';
+	font-size: 16px;
+	font-family: 'Open Sans';
+	height: 80px;
+	line-height: 75px;
+	border-color: white;
+	text-align: center;
 }
 
 .row #scores > :nth-child(odd) {
