@@ -29,7 +29,7 @@ public class Application extends Controller {
 	}
 
 	public static Result data() {
-		return ok(views.html.index.render());
+		return ok(views.html.data.render("Algunos Datos"));
 	}
 
 	public static Result photos() {

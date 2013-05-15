@@ -10,6 +10,8 @@
 body {
 	padding-top: 60px;
 	padding-bottom: 0px;
+	color: #DCDBDB;
+	font-size: 14px;
 }
 
 .navbar-fixed-top .container {
@@ -28,11 +30,8 @@ h4 {
 }
 
 p {
-	font-family: 'Ubuntu', sans-serif;
 	line-height: 30px;
-	font-size: 14px;
 	text-align: justify;
-	color: #DCDBDB;
 }
 
 .logo {
