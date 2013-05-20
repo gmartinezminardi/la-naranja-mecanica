@@ -47,6 +47,10 @@ p {
 	font-weight: 100;
 }
 
+#container .row {
+	min-height: 500px;
+}
+
 .row  {
 	margin-top: 30px;
 }
@@ -68,37 +72,9 @@ section {
 	margin-left: 0 !important;
 }
 
-.info {
-	width: 336px;
-	margin-bottom: 20px;
-}
-
-.info h2 {
-	margin: 0;
-	padding: 0 14px 0 18px;
-	background-color: #E07934;
-	color: #F2F2F2;
-	height: 50px;
-	font: normal 300 36px 'Lato',sans-serif !important;
-	text-align: center;
-	border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-}
-
-.info .row-info{
-	height: 50px;
-	background-color: #313131;
-	font: normal 700 20px/50px 'Open Sans Condensed',sans-serif;
-	color: #DCDBDB;
-	text-align: center;
-}
-
 #footer h1 {
 	color: #E07934;
 	margin-bottom: 30px;
-	font-family: 'Lato';
-	
 }
 
 #footer {
@@ -108,9 +84,8 @@ section {
 	margin-top: 40px;
 }
 
-
-#footer .row-fluid {
-	padding-top: 0;
+#footer .row {
+	margin-top: 0;
 }
 
 .pull-right .up {
@@ -120,22 +95,25 @@ section {
 	height: 48px;
 }
 
-.up:hover {
+.pull-right .up:hover {
 	background: url('/assets/images/icon-arrow-up-DCDBDB.png') no-repeat 0 0 transparent;
 }
 
+/******************************************************************************/
+/***** TABLA DE POSICIONES ***************************************************/
 #posTable {
 	width: 570px;
 	padding: 0 0 10px 0;
 	margin: auto;
 }
+
 #posTable h2 {
 	text-transform: capitalize;
 	margin: 0 0 0 15px;
 	display:inline;
 	line-height: 40px;
 	color: #F2F2F2;
-	font-family: 'Lato',sans-serif !important;
+	font-family: 'Lato', sans-serif !important;
 	font-weight: 100 !important;
 }
 
@@ -230,6 +208,8 @@ section {
 	border-right: 0 !important;
 }
 
+/******************************************************************************/
+
 .promotion {
 	background-color: #E2B23C;
 	color: #3D3D3D;
@@ -241,76 +221,36 @@ section {
 }
 
 .fixture {
-	background-color: #313131;
-	width: 716px;
+	width: 744px;
 	margin: 0 auto;
 }
-
-.fixture ul {
-	height: 40px;
-	margin: 0 !important;
-}
-
-.fixture ul  li{
-	display: inline;
-	line-height: 40px;
-	float: left;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
-	color: #F2F2F2;
-	border-right: 1px solid #3D3D3D;
-	text-transform: uppercase;
-}
-
-
-.fixture > :nth-child(odd) {
-	background-color: #515151;
-}
-
-.fixture  ul li:last-child {
-	border-right: 0;
-}
-
-.fixture >:nth-child(1){
-	border-radius: 2px 2px 0 0;
-	-webkit-border-radius: 2px 2px 0 0;
-	-moz-border-radius: 2px 2px 0 0;
-}
-
-.fixture >:nth-child(1) h2{
-	margin: 0 0 0 15px;
-	color: #F2F2F2;
-	text-transform: capitalize;
-	font-family: 'Lato' !important;
-	font-weight: 100;
-}
-
-.fixture >:last-child {
-	border-radius: 0 0 2px 2px;
-	-webkit-border-radius: 0 0 2px 2px;
-	-moz-border-radius: 0 0 2px 2px;
-} 
 
 .fixture ul  li.number {
 	width: 30px;
 	font-size: 14px;
 	background-color: #E07934;
+	border-bottom-color: #E07934;
+	border-right-color: #E07934;
 }
 
 .fixture ul  li.team {
 	width: 200px;
 	padding: 0 10px 0;
+	text-transform: uppercase;
 }
 
 .fixture ul  li.result {
 	width: 40px;
 	font-size: 16px;
 	color: #E07934;
+	background-color: #F0F0F0;
+	border-bottom-color: #F0F0F0;
+	border-right-color: #F0F0F0;
+	font-weight: 800;
 }
 
-.fixture ul  li.date {
-	width: 80px;
+.fixture ul li.date {
+	width: 100px;
 }
 
 .fixture ul  li.link {
@@ -386,4 +326,57 @@ ul.scores li.team {
 
 .row ul li:last-child {
 	border-right: 0 !important;
+}
+
+.list {
+	margin: auto;
+}
+
+.list ul {
+	float: left;
+	background-color: #313131;
+	margin: 0;
+	border-right: 1px solid #5D5D5D;
+	border-bottom: 1px solid #5D5D5D;
+	clear: both;
+	text-align: center;
+	font-size: 13px;
+}
+
+.list > ul:nth-child(1) {
+	border-top: 1px solid #5D5D5D;
+}
+
+.list ul:last-child {
+	border-right: 1px solid #5D5D5D;
+}
+
+.list ul > li {
+	display: block;
+	border-bottom: 1px solid #131313;
+	border-right: 1px solid #131313;
+	border-left: 1px solid #5D5D5D;
+	float: left;
+	height: 39px;
+	margin: 0;
+	line-height: 39px;
+	width: 150px;
+}
+
+.list ul > li:last-child {
+	border-right: 1px solid #131313;
+}
+
+.list > ul li h1 {
+	font-size: 20px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	background-color: #414141;
+}
+
+/***********************/
+.scorers {
+	width: 304px;
+	text-transform: uppercase;
 }

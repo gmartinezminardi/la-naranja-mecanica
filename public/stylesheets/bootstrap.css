@@ -3412,8 +3412,12 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a:hover {
   color: #ffffff;
   background-color: #E07934;
-
 }
+
+.nav-pills a:hover {
+	color: #E07934;
+}
+	
 .nav-stacked > li {
   float: none;
 }
@@ -4211,6 +4215,10 @@ input[type="submit"].btn.btn-mini {
 .pagination-right {
   text-align: right;
 }
+.pagination-left {
+  text-align: left;
+}
+
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;

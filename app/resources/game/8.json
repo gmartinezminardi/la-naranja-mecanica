@@ -10,7 +10,7 @@
       "name": "La Naranja Mecanica",
       "imageURL": "la-naranja-mecanica.png"
     },
-    "localScore": "4,
+    "localScore": "4",
     "visitScore": "7",
     "players": [
       {
@@ -85,7 +85,7 @@
       },
       {
         "local": {
-          "name": Maximiliano Cavalli,
+          "name": "Maximiliano Cavalli",
           "card": null,
           "goals": 0,
           "score": 7

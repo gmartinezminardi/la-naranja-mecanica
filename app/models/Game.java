@@ -46,6 +46,8 @@ public class Game {
 			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/4.json")).toString()), Game.class));
 			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/5.json")).toString()), Game.class));
 			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/6.json")).toString()), Game.class));
+			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/7.json")).toString()), Game.class));
+			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/8.json")).toString()), Game.class));
 		}
 		
 		return games;
