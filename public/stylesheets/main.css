@@ -43,7 +43,7 @@ p {
 }
 
 #content h2, #content h1{
-	color:  #E07934 !important;
+	color: @orange !important;
 	font-weight: 100;
 }
 
@@ -88,15 +88,14 @@ section {
 	margin-top: 0;
 }
 
-.pull-right .up {
-	background: url('/assets/images/icon-arrow-up-E07934.png') no-repeat 0 0 transparent;
-	display: block;
-	width: 48px;
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: url('/assets/images/icon-arrow-up-E07934.png') no-repeat 0 0 transparent;
+    color: #fff;
+    width: 48px;
 	height: 48px;
-}
-
-.pull-right .up:hover {
-	background: url('/assets/images/icon-arrow-up-DCDBDB.png') no-repeat 0 0 transparent;
 }
 
 /******************************************************************************/
