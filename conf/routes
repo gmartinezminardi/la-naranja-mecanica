@@ -3,11 +3,11 @@
 # ~~~~
 
 # Home page
-GET		/							controllers.Application.index()
-GET		/apertura/2013/:game		controllers.Application.game(game)
-GET		/estadisticas				controllers.Application.stats()
-GET		/datos						controllers.Application.data()
-GET		/fotos						controllers.Application.photos()
+GET		/										controllers.Application.index()
+GET		/partido/:tournament/:year/:game		controllers.Application.game(tournament, year, game)
+GET		/estadisticas/:tournament/:year			controllers.Application.stats(tournament, year)
+GET		/datos									controllers.Application.data()
+GET		/fotos									controllers.Application.photos()
 
 # Map static resources from the /public folder to the /assets URL path
 GET		/assets/*file				controllers.Assets.at(path="/public", file)
