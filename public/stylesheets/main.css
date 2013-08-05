@@ -79,9 +79,11 @@ section {
 
 #footer {
 	color: white;
-	background-color: #2A2A2A;
+	background-color: #DBDBDB;
 	min-height: 260px;
 	margin-top: 40px;
+	box-shadow: inset 0px 4px 10px 0px rgba(19, 19, 19, 0.75);
+	moz-box-shadow: inset 0px 4px 10px 0px rgba(19, 19, 19, 0.75);
 }
 
 #footer .row {

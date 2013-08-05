@@ -2,18 +2,21 @@ package models;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.HashMap;
+
+import controllers.Application;
 
 import play.api.libs.Files;
 import play.libs.Json;
 
 public class Game {
 	private static final Map<String, List<Game>> tournament = new HashMap<String, List<Game>>();
-	private static final Integer MATCHES = 18;
+	private static final Integer MATCHES = 20;
 	
 	public String date;
+	public String round;
 	public Team local;
 	public Team visit;
 	public String localScore;
@@ -24,10 +27,11 @@ public class Game {
 	public String commentarist;
 
 
-	public Game(String date, Team local, String localScore, Team visit, String visitScore, 
+	public Game(String date, String round, Team local, String localScore, Team visit, String visitScore, 
 				List<GamePlayers> players, String summaryTitle, String summary, String commentarist) {
 		super();
 		this.date = date;
+		this.round = round;
 		this.local = local;
 		this.visit = visit;
 		this.players = players;
@@ -42,16 +46,24 @@ public class Game {
 	}
 
 	public static List<Game> all(String year, String tournament) {
-		List<Game> games = tournament.get(key);
 		String key = tournament + "-" + year;
+
+		List<Game> games = Game.tournament.get(key);
 		
 		if (games == null) {
+			games = new ArrayList<Game>();
 			
-			for (int i = 1; i < MATCHES; i++)
-				games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/"+year+"/"+tournament+"/apertura/"+i+".json")).toString()), Game.class));
+			for (int i = 1; i < MATCHES; i++) {
+				try {
+					File file = new File(Application.getPath(year, tournament, i+".json"));
+					Game game = Json.fromJson(Json.parse(Files.readFile(file).toString()), Game.class);
+					games.add(game);
+				} catch (Exception e){
+					break;
+				}
 			}
 			
-			tournament.put(key, games);
+			Game.tournament.put(key, games);
 		
 		}
 		

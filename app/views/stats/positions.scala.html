@@ -1,3 +1,4 @@
+@(teams: List[LinkedHashMap[String, String]])	
 	<div id="posTable" class="fl">
 		<div class="PTheadRow">
 			<div class="PTHR_a">equipos</div>
@@ -10,225 +11,28 @@
 			<div class="PTHR_h">gc</div>
 			<div class="PTHR_i">dg</div>
 		</div>
-		<div class="PTbodyRow pos-orange">
-			<div class="PTBR_a">1</div>
-			<div class="PTBR_b">La Naranja Mecánica</div>
-			<div class="PTBR_c">18</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">9</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">0</div>
-			<div class="PTBR_h">60</div>
-			<div class="PTBR_i">25</div>
-			<div class="PTBR_j">35</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">2</div>
-			<div class="PTBR_b">Las Mellizas Hot</div>
-			<div class="PTBR_c">16</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">8</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">1</div>
-			<div class="PTBR_h">48</div>
-			<div class="PTBR_i">20</div>
-			<div class="PTBR_j">28</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">3</div>
-			<div class="PTBR_b">Humildad y Talento</div>
-			<div class="PTBR_c">16</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">8</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">1</div>
-			<div class="PTBR_h">48</div>
-			<div class="PTBR_i">20</div>
-			<div class="PTBR_j">28</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">4</div>
-			<div class="PTBR_b">Rolito F.C.</div>
-			<div class="PTBR_c">15</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">7</div>
-			<div class="PTBR_f">1</div>
-			<div class="PTBR_g">1</div>
-			<div class="PTBR_h">91</div>
-			<div class="PTBR_i">49</div>
-			<div class="PTBR_j">42</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">5</div>
-			<div class="PTBR_b">Hacha y Tiza</div>
-			<div class="PTBR_c">14</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">7</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">2</div>
-			<div class="PTBR_h">81</div>
-			<div class="PTBR_i">34</div>
-			<div class="PTBR_j">47</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">6</div>
-			<div class="PTBR_b">Smirnoff F.C.</div>
-			<div class="PTBR_c">14</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">6</div>
-			<div class="PTBR_f">2</div>
-			<div class="PTBR_g">1</div>
-			<div class="PTBR_h">41</div>
-			<div class="PTBR_i">25</div>
-			<div class="PTBR_j">16</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">7</div>
-			<div class="PTBR_b">La Venosa</div>
-			<div class="PTBR_c">12</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">5</div>
-			<div class="PTBR_f">2</div>
-			<div class="PTBR_g">2</div>
-			<div class="PTBR_h">41</div>
-			<div class="PTBR_i">18</div>
-			<div class="PTBR_j">23</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">8</div>
-			<div class="PTBR_b">Paletas Tristes</div>
-			<div class="PTBR_c">9</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">4</div>
-			<div class="PTBR_f">1</div>
-			<div class="PTBR_g">4</div>
-			<div class="PTBR_h">36</div>
-			<div class="PTBR_i">41</div>
-			<div class="PTBR_j">-5</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">9</div>
-			<div class="PTBR_b">Cristal F.C.</div>
-			<div class="PTBR_c">9</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">4</div>
-			<div class="PTBR_f">1</div>
-			<div class="PTBR_g">4</div>
-			<div class="PTBR_h">25</div>
-			<div class="PTBR_i">47</div>
-			<div class="PTBR_j">-22</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">10</div>
-			<div class="PTBR_b">Matangas</div>
-			<div class="PTBR_c">8</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">3</div>
-			<div class="PTBR_f">2</div>
-			<div class="PTBR_g">4</div>
-			<div class="PTBR_h">33</div>
-			<div class="PTBR_i">39</div>
-			<div class="PTBR_j">-6</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a">11</div>
-			<div class="PTBR_b">Flojo Licuado</div>
-			<div class="PTBR_c">8</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">3</div>
-			<div class="PTBR_f">2</div>
-			<div class="PTBR_g">4</div>
-			<div class="PTBR_h">32</div>
-			<div class="PTBR_i">40</div>
-			<div class="PTBR_j">-8</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a promotion">12</div>
-			<div class="PTBR_b">Pelos F.C.</div>
-			<div class="PTBR_c">7</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">3</div>
-			<div class="PTBR_f">1</div>
-			<div class="PTBR_g">5</div>
-			<div class="PTBR_h">25</div>
-			<div class="PTBR_i">32</div>
-			<div class="PTBR_j">-7</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a promotion">13</div>
-			<div class="PTBR_b">Las Águilas de Niupi</div>
-			<div class="PTBR_c">5</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">2</div>
-			<div class="PTBR_f">1</div>
-			<div class="PTBR_g">6</div>
-			<div class="PTBR_h">43</div>
-			<div class="PTBR_i">56</div>
-			<div class="PTBR_j">-13</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a promotion">14</div>
-			<div class="PTBR_b">Descanso Verde</div>
-			<div class="PTBR_c">4</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">1</div>
-			<div class="PTBR_f">2</div>
-			<div class="PTBR_g">6</div>
-			<div class="PTBR_h">22</div>
-			<div class="PTBR_i">61</div>
-			<div class="PTBR_j">-39</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a promotion">15</div>
-			<div class="PTBR_b">La Pelota no Dobla</div>
-			<div class="PTBR_c">3</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">1</div>
-			<div class="PTBR_f">1</div>
-			<div class="PTBR_g">7</div>
-			<div class="PTBR_h">23</div>
-			<div class="PTBR_i">38</div>
-			<div class="PTBR_j">-15</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a promotion">16</div>
-			<div class="PTBR_b">LMDS</div>
-			<div class="PTBR_c">2</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">1</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">8</div>
-			<div class="PTBR_h">26</div>
-			<div class="PTBR_i">72</div>
-			<div class="PTBR_j">-46</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a relegation">17</div>
-			<div class="PTBR_b">Tarmogoyf FK</div>
-			<div class="PTBR_c">0</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">0</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">9</div>
-			<div class="PTBR_h">1</div>
-			<div class="PTBR_i">27</div>
-			<div class="PTBR_j">-26</div>
-		</div>
-		<div class="PTbodyRow">
-			<div class="PTBR_a relegation">18</div>
-			<div class="PTBR_b">Simpato</div>
-			<div class="PTBR_c">0</div>
-			<div class="PTBR_d">9</div>
-			<div class="PTBR_e">0</div>
-			<div class="PTBR_f">0</div>
-			<div class="PTBR_g">9</div>
-			<div class="PTBR_h">17</div>
-			<div class="PTBR_i">49</div>
-			<div class="PTBR_j">-32</div>
-		</div>
-		
+		@for((team, index) <- teams.zipWithIndex) {
+			<div class="PTbodyRow">
+				@if(index > 10 && index < 15) {
+					<div class="PTBR_a promotion">@(index.toInt + 1)</div>
+				} 
+				@if(index > 15) {
+					<div class="PTBR_a relegation">@(index.toInt + 1)</div>
+				}
+				@if(index < 11) {
+					<div class="PTBR_a">@(index.toInt + 1)</div>
+				}
+				<div class="PTBR_b">@team.get("team")</div>
+				<div class="PTBR_c">@team.get("pts")</div>
+				<div class="PTBR_d">@team.get("j")</div>
+				<div class="PTBR_e">@team.get("g")</div>
+				<div class="PTBR_f">@team.get("e")</div>
+				<div class="PTBR_g">@team.get("p")</div>
+				<div class="PTBR_h">@team.get("gf")</div>
+				<div class="PTBR_i">@team.get("gc")</div>
+				<div class="PTBR_j">@(team.get("gf").toInt - team.get("gc").toInt)</div>
+			</div>
+		}
 		<div class="clear"><!-- --></div>
 	
 	</div>
-	
-

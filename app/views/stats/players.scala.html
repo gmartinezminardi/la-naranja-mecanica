@@ -1,0 +1,15 @@
+@(list: List[LinkedHashMap[String, String]])
+	<div class="list scorers">
+		<ul>
+			<li><h1>Jugador</h1></li>
+			<li><h1>Goles</h1></li>
+			<li><h1>Amarillas</h1></li>
+		</ul>
+		@for(player <- list) {
+			<ul>
+				<li>@player.get("name")</li>
+				<li>@player.get("goals")</li>
+				<li>@player.get("cards")</li>
+			</ul>
+		}
+	</div>

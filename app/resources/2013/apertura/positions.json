@@ -1,0 +1,20 @@
+[
+	{"team":"LA NARANJA MECÁNICA", 	"pts":30, "j":17, "g":15, "e":0, "p":2,  "gf":109, "gc":42},
+	{"team":"LAS MELLIZAS HOT", 	"pts":30, "j":17, "g":15, "e":0, "p":2,  "gf":75,  "gc":29},
+	{"team":"ROLITO F.C.", 			"pts":28, "j":17, "g":13, "e":2, "p":2,  "gf":153, "gc":68},
+	{"team":"HUMILDAD Y TALENTO", 	"pts":27, "j":17, "g":13, "e":1, "p":3,  "gf":88,  "gc":50},
+	{"team":"HACHA Y TIZA", 		"pts":25, "j":17, "g":12, "e":1, "p":4,  "gf":145, "gc":67},
+	{"team":"SMIRNOFF F.C.", 		"pts":20, "j":17, "g":9,  "e":2, "p":6,  "gf":74,  "gc":64},
+	{"team":"PELOS F.C.", 			"pts":19, "j":17, "g":8,  "e":3, "p":6,  "gf":62,  "gc":52},
+	{"team":"PALETAS TRISTES", 		"pts":19, "j":17, "g":8,  "e":3, "p":6,  "gf":73,  "gc":71},
+	{"team":"LAS ÁGUILAS DE NIUPI", "pts":17, "j":17, "g":7,  "e":3, "p":7,  "gf":81,  "gc":85},
+	{"team":"FLOJO LICUADO", 		"pts":17, "j":17, "g":7,  "e":3, "p":7,  "gf":66,  "gc":74},
+	{"team":"LA PELOTA NO DOBLA", 	"pts":16, "j":17, "g":7,  "e":2, "p":8,  "gf":51,  "gc":70},
+	{"team":"CRISTAL F.C.", 		"pts":15, "j":17, "g":7,  "e":1, "p":9,  "gf":56,  "gc":90},
+	{"team":"LA VENOSA", 			"pts":12, "j":17, "g":5,  "e":2, "p":10, "gf":47,  "gc":56},
+	{"team":"MATANGAS", 			"pts":11, "j":17, "g":4,  "e":3, "p":10, "gf":60,  "gc":96},
+	{"team":"DESCANSO VERDE", 		"pts":10, "j":17, "g":4,  "e":2, "p":11, "gf":55,  "gc":99},
+	{"team":"LMDS", 				"pts":6,  "j":17, "g":3,  "e":0, "p":14, "gf":46,  "gc":114},
+	{"team":"SIMPATO", 				"pts":4,  "j":17, "g":2,  "e":0, "p":15, "gf":35,  "gc":99},
+	{"team":"TARMOGOYF FK", 		"pts":0,  "j":17, "g":0,  "e":0, "p":17, "gf":1,   "gc":51}
+]
