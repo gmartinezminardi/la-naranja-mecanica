@@ -15,8 +15,8 @@ public class Application extends Controller {
 		return ok(views.html.index.render());
 	}
 
-	public static Result game(String index) {
-		Game game = Game.get(new Integer(index));
+	public static Result game(String year, String tournament, String index) {
+		Game game = Game.get(tournament, year, new Integer(index));
 		if (game == null)
 			return ok(views.html.index.render());
 
@@ -24,8 +24,8 @@ public class Application extends Controller {
 		
 	}
 
-	public static Result stats() {
-		return ok(views.html.stats.index.render("Estadisticas"));
+	public static Result stats(String year, String tournament) {
+		return ok(views.html.stats.index.render("Estadisticas"), Game.all(year, tournament));
 	}
 
 	public static Result data() {

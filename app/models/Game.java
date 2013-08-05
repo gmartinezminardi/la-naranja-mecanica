@@ -3,12 +3,15 @@ package models;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 
 import play.api.libs.Files;
 import play.libs.Json;
 
 public class Game {
-	private static final List<Game> games = new ArrayList<Game>();
+	private static final Map<String, List<Game>> tournament = new HashMap<String, List<Game>>();
+	private static final Integer MATCHES = 18;
 	
 	public String date;
 	public Team local;
@@ -38,28 +41,30 @@ public class Game {
 	public Game() {
 	}
 
-	public static List<Game> all() {
-		if (games.isEmpty()) {
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/1.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/2.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/3.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/4.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/5.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/6.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/7.json")).toString()), Game.class));
-			games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/game/8.json")).toString()), Game.class));
+	public static List<Game> all(String year, String tournament) {
+		List<Game> games = tournament.get(key);
+		String key = tournament + "-" + year;
+		
+		if (games == null) {
+			
+			for (int i = 1; i < MATCHES; i++)
+				games.add(Json.fromJson(Json.parse(Files.readFile(new File("app/resources/"+year+"/"+tournament+"/apertura/"+i+".json")).toString()), Game.class));
+			}
+			
+			tournament.put(key, games);
+		
 		}
 		
 		return games;
 	}
 
-	public static Game get(Integer index) {
+	public static Game get(String year, String tournament, Integer index) {
 		
-		if(index == 0 || index > all().size()) {
+		if(index == 0 || index > all(year, tournament).size()) {
 			return null;
 		}
 		
-		return all().get(index - 1);
+		return all(year, tournament).get(index - 1);
 
 	}
 	
