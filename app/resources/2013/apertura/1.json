@@ -1,1 +1,133 @@
-{"date":"09/03/2013 - Fecha 1 - Apertura 2013","local":{"key":"la-naranja-mecanica","name":"La Naranja Mecanica","imageURL":"la-naranja-mecanica.png"},"visit":{"key":"descanso-verde","name":"Descanso Verde","imageURL":"descanso-verde.png"},"localScore":"5","visitScore":"1","players":[{"local":{"name":"Fede Regojo","card":null,"goals":0,"score":6},"visit":{"name":"Santiago Huernos","card":null,"goals":0,"score":6}},{"local":{"name":"Mariano Lope","card":null,"goals":0,"score":7},"visit":{"name":"Simonelli Hernan","card":null,"goals":0,"score":5}},{"local":{"name":"Maxi Marquez","card":null,"goals":1,"score":6},"visit":{"name":"Foray Facundo","card":null,"goals":0,"score":5}},{"local":{"name":"Horacio Ricardo","card":null,"goals":1,"score":6},"visit":{"name":"Facundo Estevez","card":null,"goals":0,"score":5}},{"local":{"name":"Santi Fernandez","card":null,"goals":0,"score":7},"visit":{"name":"Zamudio Gonzalez","card":null,"goals":0,"score":5}},{"local":{"name":"Keki Sanchez","card":null,"goals":3,"score":8},"visit":{"name":"Santiago Poklepovich","card":null,"goals":0,"score":5}},{"local":{"name":null,"card":null,"goals":0,"score":null},"visit":{"name":"Federico Vazquez","card":null,"goals":1,"score":6}},{"local":{"name":null,"card":null,"goals":0,"score":null},"visit":{"name":"Manuel Bulgaria","card":null,"goals":0,"score":4}}],"summaryTitle":"En 4 minutos liquidó la historia","summary":"En otro partido por la primera fecha en la máxima categoría se enfrentaban La naranja Mecánica contra Descanso Verde. El partido empezaría con el tanto de Sánchez a los 3' primeros minutos de juego. Luego el partido estuvo parejo a pesar de que termino ganando la primera etapa la naranja., porque Descanso verde inquieto e hizo temblar el arco en varias ocasiones. En el final la naranja encontraría de nuevo el rumbo y terminaría de la mejor manera creando buenas situaciones.<br/> En el segundo tiempo Vázquez a los 6' minutos de juego empataría el partido y le daría un condimento a esta etapa. Pero le duro poco las esperanzas al conjunto celeste, porque vendría la seguidilla de goles de Sánchez x2 que darían vuelta el partido y abrió el camino para que vengan los goles de Márquez y Magallanes. Todo esto pasó en cuatro minutos de juego, la naranja en tan poco tiempo saco una gran ventaja y también gano el dominio de pelota y hasta el final del partido llevo el partido a su antojo. Y sonaría el pitido final y la naranja ganaría por 5 a 1.","commentarist":"Francisco Rolón"}
+{
+	"date":"09/03/2013",
+	"round":"Fecha 1 - Apertura 2013",
+	"local":{
+		"key":"la-naranja-mecanica",
+		"name":"La Naranja Mecanica",
+		"imageURL":"la-naranja-mecanica.png"
+	},
+	"visit":{
+		"key":"descanso-verde",
+		"name":"Descanso Verde",
+		"imageURL":"descanso-verde.png"
+	},
+	"localScore":"5",
+	"visitScore":"1",
+	"players":[
+		{
+			"local":{
+				"name":"Fede Regojo",
+				"card":null,
+				"goals":0,
+				"score":6
+			},
+			"visit":{
+				"name":"Santiago Huernos",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Mariano Lope",
+				"card":null,
+				"goals":0,
+				"score":7
+			},
+			"visit":{
+				"name":"Simonelli Hernan",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":"Maxi Marquez",
+				"card":null,
+				"goals":1,
+				"score":6
+			},
+			"visit":{
+				"name":"Foray Facundo",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":"Horacio Ricardo",
+				"card":null,
+				"goals":1,
+				"score":6
+			},
+			"visit":{
+				"name":"Facundo Estevez",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":"Santi Fernandez",
+				"card":null,
+				"goals":0,
+				"score":7
+			},
+			"visit":{
+				"name":"Zamudio Gonzalez",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":"Keki Sanchez",
+				"card":null,
+				"goals":3,
+				"score":8
+			},
+			"visit":{
+				"name":"Santiago Poklepovich",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":null,
+				"card":null,
+				"goals":0,
+				"score":null
+			},
+			"visit":{
+				"name":"Federico Vazquez",
+				"card":null,
+				"goals":1,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":null,
+				"card":null,
+				"goals":0,
+				"score":null
+			},
+			"visit":{
+				"name":"Manuel Bulgaria",
+				"card":null,
+				"goals":0,
+				"score":4
+			}
+		}
+	],
+	"summaryTitle":"En 4 minutos liquidó la historia",
+	"summary":"En otro partido por la primera fecha en la máxima categoría se enfrentaban La naranja Mecánica contra Descanso Verde. El partido empezaría con el tanto de Sánchez a los 3' primeros minutos de juego. Luego el partido estuvo parejo a pesar de que termino ganando la primera etapa la naranja., porque Descanso verde inquieto e hizo temblar el arco en varias ocasiones. En el final la naranja encontraría de nuevo el rumbo y terminaría de la mejor manera creando buenas situaciones.<br/> En el segundo tiempo Vázquez a los 6' minutos de juego empataría el partido y le daría un condimento a esta etapa. Pero le duro poco las esperanzas al conjunto celeste, porque vendría la seguidilla de goles de Sánchez x2 que darían vuelta el partido y abrió el camino para que vengan los goles de Márquez y Magallanes. Todo esto pasó en cuatro minutos de juego, la naranja en tan poco tiempo saco una gran ventaja y también gano el dominio de pelota y hasta el final del partido llevo el partido a su antojo. Y sonaría el pitido final y la naranja ganaría por 5 a 1.",
+	"commentarist":"Francisco Rolón"
+}

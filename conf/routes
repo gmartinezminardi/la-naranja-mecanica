@@ -4,8 +4,8 @@
 
 # Home page
 GET		/										controllers.Application.index()
-GET		/partido/:year/:tournament/:game		controllers.Application.game(tournament, year, game)
-GET		/estadisticas/:tournament/:year			controllers.Application.stats(tournament, year)
+GET		/partido/:tournament/:year/:game		controllers.Application.game(year, tournament, game)
+GET		/estadisticas/:tournament/:year			controllers.Application.stats(year, tournament)
 GET		/datos									controllers.Application.data()
 GET		/fotos									controllers.Application.photos()
 

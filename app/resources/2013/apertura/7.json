@@ -1,104 +1,105 @@
 {
-    "date": "27\/04\/2013 - Fecha 7 - Apertura 2013",
-    "local": {
-      "key": "la-naranja-mecanica",
-      "name": "La Naranja Mecanica",
-      "imageURL": "la-naranja-mecanica.png"
-    },
-    "visit": {
-      "key": "paletas-tristes",
-      "name": "Paletas Tristes",
-      "imageURL": "paletas-tristes.png"
-    },
-    "localScore": "5",
-    "visitScore": "2",
-    "players": [
-      {
-        "local": {
-          "name": "Fede Regojo",
-          "card": null,
-          "goals": 0,
-          "score": 6
-        },
-        "visit": {
-          "name": "Alexis Mattarollo",
-          "card": null,
-          "goals": 0,
-          "score": 5
-        }
-      },
-      {
-        "local": {
-          "name": "Yiyo Martinez",
-          "card": null,
-          "goals": 0,
-          "score": 6
-        },
-        "visit": {
-          "name": "Manuel Sacon",
-          "card": null,
-          "goals": 0,
-          "score": 6
-        }
-      },
-      {
-        "local": {
-          "name": "Horacio Ricardo",
-          "card": null,
-          "goals": 0,
-          "score": 5
-        },
-        "visit": {
-          "name": "Tomas Conte Grand",
-          "card": null,
-          "goals": 0,
-          "score": 6
-        }
-      },
-      {
-        "local": {
-          "name": "Rodrigo Saran",
-          "card": null,
-          "goals": 4,
-          "score": 8
-        },
-        "visit": {
-          "name": "Joaquin Sali",
-          "card": null,
-          "goals": 0,
-          "score": 5
-        }
-      },
-      {
-        "local": {
-          "name": "Mariano Lope",
-          "card": null,
-          "goals": 1,
-          "score": 6
-        },
-        "visit": {
-          "name": "Matias Casali",
-          "card": null,
-          "goals": 0,
-          "score": 6
-        }
-      },
-      {
-        "local": {
-          "name": "Maxi Marquez",
-          "card": null,
-          "goals": 0,
-          "score": 5
-        },
-        "visit": {
-          "name": null,
-          "card": null,
-          "goals": 0,
-          "score": null
-        }
-      }
-    ],
-    "summaryTitle": "Sufrió más de lo normal",
-    "summary": "En el partido de las 13:00 se enfrentaban La Naranja Mecánica que seguía puntero y como máximo candidato al título contra Paletas Tristes que venían de ganarle los puntos a Termagoyf Fk. A pesar de no haber hecho una buena etapa La Naranja terminó ganando 3 a 1 el primer tiempo. Al minuto de juego Sarán abriría el marcador para su equipo. El empate no tardaría en llegar, Sacon empataría el partido a los 5 minutos de juego. A Paletas se lo vio mucho mejor en cancha tuvieron más pelota e intentaron mucho más que la Naranja. La diferencia que el equipo ganador tendría a Saran que tuvo una actuación buena, y así marcaría los goles restantes para el triunfo parcial. <br/>En el segundo tiempo a la Naranja se lo vio en acción muy poco, sólo en el gol de López a los 6 minutos de juego. Las buenas tapadas de su portero fueron importantes, sino el partido hubiera sido otro. Y a los 16 minutos de juego Casali J descontaría para su equipo y en los últimos tres minutos, López anotaría y cerraría el partido por 5 a 2.",
-    "commentarist": "Francisco Rolón"
-  }
+	"date":"27\/04\/2013",
+	"round":"Fecha 7 - Apertura 2013",
+	"local":{
+		"key":"la-naranja-mecanica",
+		"name":"La Naranja Mecanica",
+		"imageURL":"la-naranja-mecanica.png"
+	},
+	"visit":{
+		"key":"paletas-tristes",
+		"name":"Paletas Tristes",
+		"imageURL":"paletas-tristes.png"
+	},
+	"localScore":"5",
+	"visitScore":"2",
+	"players":[
+		{
+			"local":{
+				"name":"Fede Regojo",
+				"card":null,
+				"goals":0,
+				"score":6
+			},
+			"visit":{
+				"name":"Alexis Mattarollo",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":"Yiyo Martinez",
+				"card":null,
+				"goals":0,
+				"score":6
+			},
+			"visit":{
+				"name":"Manuel Sacon",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Horacio Ricardo",
+				"card":null,
+				"goals":0,
+				"score":5
+			},
+			"visit":{
+				"name":"Tomas Conte Grand",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Rodrigo Saran",
+				"card":null,
+				"goals":4,
+				"score":8
+			},
+			"visit":{
+				"name":"Joaquin Sali",
+				"card":null,
+				"goals":0,
+				"score":5
+			}
+		},
+		{
+			"local":{
+				"name":"Mariano Lope",
+				"card":null,
+				"goals":1,
+				"score":6
+			},
+			"visit":{
+				"name":"Matias Casali",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Maxi Marquez",
+				"card":null,
+				"goals":0,
+				"score":5
+			},
+			"visit":{
+				"name":null,
+				"card":null,
+				"goals":0,
+				"score":null
+			}
+		}
+	],
+	"summaryTitle":"Sufrió más de lo normal",
+	"summary":"En el partido de las 13:00 se enfrentaban La Naranja Mecánica que seguía puntero y como máximo candidato al título contra Paletas Tristes que venían de ganarle los puntos a Termagoyf Fk. A pesar de no haber hecho una buena etapa La Naranja terminó ganando 3 a 1 el primer tiempo. Al minuto de juego Sarán abriría el marcador para su equipo. El empate no tardaría en llegar, Sacon empataría el partido a los 5 minutos de juego. A Paletas se lo vio mucho mejor en cancha tuvieron más pelota e intentaron mucho más que la Naranja. La diferencia que el equipo ganador tendría a Saran que tuvo una actuación buena, y así marcaría los goles restantes para el triunfo parcial. <br/>En el segundo tiempo a la Naranja se lo vio en acción muy poco, sólo en el gol de López a los 6 minutos de juego. Las buenas tapadas de su portero fueron importantes, sino el partido hubiera sido otro. Y a los 16 minutos de juego Casali J descontaría para su equipo y en los últimos tres minutos, López anotaría y cerraría el partido por 5 a 2.",
+	"commentarist":"Francisco Rolón"
+}

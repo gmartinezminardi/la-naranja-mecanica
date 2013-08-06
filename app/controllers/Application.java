@@ -64,7 +64,7 @@ public class Application extends Controller {
 		return ok(views.html.index.render());
 	}
 	
-	public final static Comparator<LinkedHashMap<String,String>> getComparator(final String key) {
+	public final static Comparator<LinkedHashMap<String, String>> getComparator(final String key) {
 		Comparator<LinkedHashMap<String,String>> comparator = new Comparator<LinkedHashMap<String,String>>() {
 			@Override
 			public int compare(LinkedHashMap<String,String> o1, LinkedHashMap<String,String> o2) {

@@ -1,1 +1,133 @@
-{"date":"09/03/2013 - Fecha 1 - Apertura 2013","local":{"key":"la-naranja-mecanica","name":"La Naranja Mecanica","imageURL":"la-naranja-mecanica.png"},"visit":{"key":"descanso-verde","name":"Descanso Verde","imageURL":"descanso-verde.png"},"localScore":"5","visitScore":"1","players":[{"local":{"name":"Fede Regojo","card":null,"goals":0,"score":6},"visit":{"name":"Santiago Huernos","card":null,"goals":0,"score":6}},{"local":{"name":"Mariano Lope","card":null,"goals":0,"score":7},"visit":{"name":"Simonelli Hernan","card":null,"goals":0,"score":5}},{"local":{"name":"Maxi Marquez","card":null,"goals":1,"score":6},"visit":{"name":"Foray Facundo","card":null,"goals":0,"score":5}},{"local":{"name":"Horacio Ricardo","card":null,"goals":1,"score":6},"visit":{"name":"Facundo Estevez","card":null,"goals":0,"score":5}},{"local":{"name":"Santi Fernandez","card":null,"goals":0,"score":7},"visit":{"name":"Zamudio Gonzalez","card":null,"goals":0,"score":5}},{"local":{"name":"Keki Sanchez","card":null,"goals":3,"score":8},"visit":{"name":"Santiago Poklepovich","card":null,"goals":0,"score":5}},{"local":{"name":null,"card":null,"goals":0,"score":null},"visit":{"name":"Federico Vazquez","card":null,"goals":1,"score":6}},{"local":{"name":null,"card":null,"goals":0,"score":null},"visit":{"name":"Manuel Bulgaria","card":null,"goals":0,"score":4}}],"summaryTitle":"En 4 minutos liquidó la historia","summary":"En otro partido por la primera fecha en la máxima categoría se enfrentaban La naranja Mecánica contra Descanso Verde. El partido empezaría con el tanto de Sánchez a los 3' primeros minutos de juego. Luego el partido estuvo parejo a pesar de que termino ganando la primera etapa la naranja., porque Descanso verde inquieto e hizo temblar el arco en varias ocasiones. En el final la naranja encontraría de nuevo el rumbo y terminaría de la mejor manera creando buenas situaciones.<br/> En el segundo tiempo Vázquez a los 6' minutos de juego empataría el partido y le daría un condimento a esta etapa. Pero le duro poco las esperanzas al conjunto celeste, porque vendría la seguidilla de goles de Sánchez x2 que darían vuelta el partido y abrió el camino para que vengan los goles de Márquez y Magallanes. Todo esto pasó en cuatro minutos de juego, la naranja en tan poco tiempo saco una gran ventaja y también gano el dominio de pelota y hasta el final del partido llevo el partido a su antojo. Y sonaría el pitido final y la naranja ganaría por 5 a 1.","commentarist":"Francisco Rolón"}
+{
+	"date":"29/06/2013",
+	"round":"Fecha 15 - Apertura 2013",
+	"local":{
+		"key":"la-naranja-mecanica",
+		"name":"La Naranja Mecanica",
+		"imageURL":"la-naranja-mecanica.png"
+	},
+	"visit":{
+		"key":"matangas",
+		"name":"Matangas",
+		"imageURL":"matangas.png"
+	},
+	"localScore":"7",
+	"visitScore":"2",
+	"players":[
+		{
+			"local":{
+				"name":"Fede Regojo",
+				"card":null,
+				"goals":0,
+				"score":6
+			},
+			"visit":{
+				"name":"Fernando Turano",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Horacio Ricardo",
+				"card":null,
+				"goals":2,
+				"score":7
+			},
+			"visit":{
+				"name":"Fernando Vega",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Santi Fernandez",
+				"card":null,
+				"goals":0,
+				"score":6
+			},
+			"visit":{
+				"name":"Lucas Criado",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Keki Sanchez",
+				"card":null,
+				"goals":1,
+				"score":6
+			},
+			"visit":{
+				"name":"Marcelo Vecino-Dri",
+				"card":null,
+				"goals":2,
+				"score":7
+			}
+		},
+		{
+			"local":{
+				"name":"Yiyo Martinez",
+				"card":null,
+				"goals":0,
+				"score":6
+			},
+			"visit":{
+				"name":"Guillermo Galvan",
+				"card":null,
+				"goals":0,
+				"score":6
+			}
+		},
+		{
+			"local":{
+				"name":"Mariano Lope",
+				"card":null,
+				"goals":1,
+				"score":6
+			},
+			"visit":{
+				"name":null,
+				"card":null,
+				"goals":0,
+				"score":null
+			}
+		},
+		{
+			"local":{
+				"name":"Trapo Sarán",
+				"card":null,
+				"goals":2,
+				"score":7
+			},
+			"visit":{
+				"name":null,
+				"card":null,
+				"goals":0,
+				"score":null
+			}
+		},
+		{
+			"local":{
+				"name":"Maxi Marquez",
+				"card":null,
+				"goals":1,
+				"score":6
+			},
+			"visit":{
+				"name":null,
+				"card":null,
+				"goals":0,
+				"score":null
+			}
+		}
+	],
+	"summaryTitle":"Ahora viene lo jodido",
+	"summary":"El único puntero del torneo, La Naranja Mecánica debía enfrentar a Matangas que se jugaba las últimas cartas para evitar la promoción por no descender. Rodrigo Sarán se encargaría de romper la paridad a los 3 minutos. A los 13 el 7 tendría el segundo de La Naranja Mecánica con un tiro libre pero el palo le negaría el gol. Igualmente no tardaría en llegar ya que poco después Maximiliano Márquez simplemente tendría que acertarle al arco para marcar. A un minuto para el descanso Ezequiel Sánchez ampliaría la diferencia con un cabezazo bombeado. Justo antes del pitazo Marcelo Vecino Dri dejaba con esperanzas a Matangas de cara a la segunda parte. A pocos segundos de comenzado el complemento Mariano López robaría en mitad de cancha para poner el 4-1. A los 8 minutos aparecería en escena Horacio Magallanes clavando el quinto. Dos minutos después Marcelo Vecino Dri, con un zurdazo al ángulo, anotaría un nuevo descuento que de poco serviría ya que un ratito más tarde Horacio Magallanes volvería a marcar luego de una buena jugada colectiva. El partido finalizaría 7-2 por el gol de Rodrigo Sarán pero quien la armase toda iba a ser Yiyo Minardi",
+	"commentarist":"Tomas Conte-Grand"
+}
