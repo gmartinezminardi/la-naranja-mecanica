@@ -1,5 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400');
-@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 @import url('http://fonts.googleapis.com/css?family=Ubuntu');
 @import url('http://fonts.googleapis.com/css?family=Lobster|Cabin:400,700');
 @import url('http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic');
@@ -15,7 +14,7 @@ body {
 }
 
 .navbar-fixed-top .container {
-	width: 825px !important;
+	width: 680px !important;
 }
 
 h1, h2, h3 {
@@ -131,12 +130,12 @@ section {
 
 .PTheadRow {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 	height: 40px;
 	line-height: 40px;
-	background-color: #515151;
-	color: #DCDBDB;
+	color: #E07934;
+	border-bottom: 4px solid #E07934;
 }
 
 .PTHR_a {
@@ -147,11 +146,10 @@ section {
 }
 
 .PTHR_b, .PTHR_c, .PTHR_d, .PTHR_e, .PTHR_f, .PTHR_g, .PTHR_h, .PTHR_i {
-	width: 40px;
+	width: 41px;
 	display:inline;
 	float:left;
 	text-align:center;
-	border-right: 1px solid #3D3D3D;
 }
 
 .PTHR_i {
@@ -162,7 +160,7 @@ section {
 	height: 40px;
 	line-height: 40px;
 	background-color: #313131;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 11px;
 	clear: both;
 	color: #DCDBDB;
@@ -238,7 +236,8 @@ section {
 .fixture ul  li.team {
 	width: 200px;
 	padding: 0 10px 0;
-	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 .fixture ul  li.result {
@@ -253,22 +252,27 @@ section {
 
 .fixture ul li.date {
 	width: 100px;
+	border-left: 1px solid #5D5D5D;
+	border-right: 1px solid #5D5D5D;
 }
 
 .fixture ul  li.link {
 	width: 80px;
+	font-family: 'Lobster';
+	letter-spacing: 1px;
+	font-size: 15px;
 }
 
 ul.scores {
-	width: 627px;
+	width: 625px;
 	min-height: 40px;
 	margin: 0 auto 0;
 	background-color: #313131;
 }
 
 .tall {
-	height: 80px;
-	line-height: 80px;
+	height: 84px;
+	line-height: 84px;
 }
 
 ul.scores li {
@@ -330,6 +334,10 @@ ul.scores li.team {
 	border-right: 0 !important;
 }
 
+ul.title.scores > li {
+	border-bottom: 4px solid white;
+}
+
 .list {
 	margin: auto;
 }
@@ -338,35 +346,43 @@ ul.scores li.team {
 	float: left;
 	background-color: #313131;
 	margin: 0;
-	border-right: 1px solid #5D5D5D;
-	border-bottom: 1px solid #5D5D5D;
 	clear: both;
 	text-align: center;
 	font-size: 13px;
 }
 
 .list > ul:nth-child(1) {
-	border-top: 1px solid #5D5D5D;
+}
+
+.list > ul:nth-child(odd) {
+	background: #464646;
 }
 
 .list ul:last-child {
-	border-right: 1px solid #5D5D5D;
 }
 
 .list ul > li {
 	display: block;
-	border-bottom: 1px solid #131313;
-	border-right: 1px solid #131313;
-	border-left: 1px solid #5D5D5D;
 	float: left;
-	height: 39px;
+	height: 42px;
 	margin: 0;
-	line-height: 39px;
+	line-height: 42px;
 	width: 150px;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 300;
 }
 
 .list ul > li:last-child {
 	border-right: 1px solid #131313;
+}
+
+.list ul.title {
+	background: #1A1A1A;
+}
+
+.list ul.title > li {
+	border-bottom: 4px solid #E07934;
 }
 
 .list > ul li h1 {
@@ -374,11 +390,11 @@ ul.scores li.team {
 	line-height: 40px;
 	margin: 0;
 	padding: 0;
-	background-color: #414141;
+	font-family: 'Open Sans' !important;
+	font-weight: 300 !important;
 }
 
 /***********************/
-.scorers {
-	width: 304px;
-	text-transform: uppercase;
+.players {
+	width: 450px;
 }

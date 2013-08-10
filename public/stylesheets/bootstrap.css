@@ -3404,7 +3404,8 @@ input[type="submit"].btn.btn-mini {
 	height: 30px;
 	line-height: 30px;
 	min-width: 75px;
-	font-family: Droid Sans;
+	font-family: 'Open Sans';
+	font-weight: 300;
 	font-size: 16px;
 	background-color: #313131;
 }
