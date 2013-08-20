@@ -1,0 +1,20 @@
+[
+	{"team":"LA NARANJA MECÁNICA", 	"pts":"2", "j":"1", "g":"1", "e":"0", "p":"0",  "gf":"7", "gc":"3"},
+	{"team":"LAS MELLIZAS HOT", 	"pts":"2", "j":"1", "g":"1", "e":"0", "p":"0",  "gf":"5",  "gc":"1"},
+	{"team":"ROLITO F.C.", 			"pts":"2", "j":"1", "g":"1", "e":"0", "p":"0",  "gf":"7", "gc":"2"},
+	{"team":"HUMILDAD Y TALENTO", 	"pts":"2", "j":"1", "g":"1", "e":"0", "p":"0",  "gf":"2",  "gc":"0"},
+	{"team":"HACHA Y TIZA", 		"pts":"2", "j":"1", "g":"1", "e":"0", "p":"0",  "gf":"11", "gc":"4"},
+	{"team":"SMIRNOFF FC", 			"pts":"0", "j":"1", "g":"0",  "e":"0", "p":"1",  "gf":"3",  "gc":"4"},
+	{"team":"PELOS FC", 			"pts":"0", "j":"1", "g":"0",  "e":"0", "p":"0",  "gf":"0",  "gc":"2"},
+	{"team":"PALETAS TRISTES", 		"pts":"2", "j":"1", "g":"1",  "e":"0", "p":"0",  "gf":"4",  "gc":"3"},
+	{"team":"LAS ÁGUILAS DE NIUPI", "pts":"0", "j":"1", "g":"0",  "e":"0", "p":"1",  "gf":"3",  "gc":"8"},
+	{"team":"FLOJO LICUADO", 		"pts":"2", "j":"1", "g":"1",  "e":"0", "p":"0",  "gf":"8",  "gc":"3"},
+	{"team":"LA PELOTA NO DOBLA", 	"pts":"0", "j":"1", "g":"0",  "e":"0", "p":"1",  "gf":"2",  "gc":"4"},
+	{"team":"CRISTAL FC", 			"pts":"2", "j":"1", "g":"1",  "e":"0", "p":"0",  "gf":"4",  "gc":"2"},
+	{"team":"TERMIDOR FC", 			"pts":"2", "j":"1", "g":"1",  "e":"0", "p":"0", "gf":"4",  "gc":"2"},
+	{"team":"MATANGAS", 			"pts":"0", "j":"1", "g":"0",  "e":"0", "p":"1", "gf":"3",  "gc":"7"},
+	{"team":"DESCANSO VERDE", 		"pts":"0", "j":"1", "g":"0",  "e":"0", "p":"1", "gf":"2",  "gc":"7"},
+	{"team":"ALDO BONZI FC", 		"pts":"0",  "j":"1", "g":"0",  "e":"0", "p":"1", "gf":"1",  "gc":"5"},
+	{"team":"RESTO DEL MUNDO", 		"pts":"0",  "j":"1", "g":"0",  "e":"0", "p":"1", "gf":"2",  "gc":"4"},
+	{"team":"ME LLEVA EL CHANFLE",	"pts":"0",  "j":"1", "g":"0",  "e":"0", "p":"1", "gf":"4",   "gc":"11"}
+]
