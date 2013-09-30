@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Trapo Sarán", "cards": "0", "goals": "15"
+		"name": "Trapo Sarán", "cards": "0", "goals": "1"
 	},
 	{
-		"name": "Mariano Lope", "cards": "0", "goals": "14"
+		"name": "Mariano Lope", "cards": "0", "goals": "4"
 	},
 	{
 		"name": "Yiyo Martinez", "cards": "0", "goals": "0"
@@ -12,7 +12,7 @@
 		"name": "Keki Sanchez", "cards": "0", "goals": "0"
 	},
 	{
-		"name": "Santi Fernandez", "cards": "0", "goals": "1"
+		"name": "Santi Fernandez", "cards": "0", "goals": "0"
 	},
 	{
 		"name": "Maxi Marquez", "cards": "0", "goals": "2" 
@@ -21,6 +21,6 @@
 		"name": "Horacio Ricardo", "cards": "0", "goals": "0"
 	},
 	{
-		"name": "Federico Regojo", "cards": "0", "goals": "1"
+		"name": "Federico Regojo", "cards": "0", "goals": "0"
 	}
 ]
